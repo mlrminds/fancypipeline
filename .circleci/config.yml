@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
       - image: circleci/node
-    working_directory: ~/my-app
+    working_directory: ~/fancypipeline/my-app
     steps:
       - checkout
       - restore_cache:
